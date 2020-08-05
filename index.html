@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        Hello World!
+        <script href="main.js"></script>
+    </body>
+</html>
