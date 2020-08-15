@@ -1,0 +1,198 @@
+@font-face {
+    font-family: montserrat;
+    src: url('montserrat-regular.otf');
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#backpic {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url('galaxy.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#gradient {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%; 
+    width: 100%;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgb(32, 32, 32) 15%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(32,32,32,1) 15%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(0deg, rgba(32,32,32,1) 15%, rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+}
+
+#bottomback {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 32, 32, 1);
+}
+
+#headertext {
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    color: rgb(255, 255, 255);
+    font-family: montserrat;
+    width: 45%;
+    font-size: 300%;
+    text-align: center;
+}
+
+#quotebutton {
+    position: absolute;
+    top: 48%;
+    left: 44%;
+    text-decoration: none;
+    border: 2px solid rgb(1, 214, 168);
+    border-radius: 7px;
+    background: transparent;
+    color: rgb(1, 214, 168);
+    padding: 10px;
+    font-size: 75%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#quotebutton:hover {
+    transform: scale(1.1);
+}
+
+#myname {
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    color: white;
+    font-family: montserrat;
+    width: 7%;
+    text-align: center;
+    font-size: 125%;
+}
+
+@media only screen and (max-width: 1200px) {
+    #headertext {
+        font-size: 250%;
+    }
+}
+
+@media only screen and (max-width: 1152px) {
+    #quotebutton {
+        top: 55%;
+    }
+}
+
+@media only screen and (max-width: 1124px) {
+    #headertext {
+        font-size: 225%;
+    }
+    #quotebutton {
+        top: 46%;
+        left: 43.5%;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    #quotebutton {
+        top: 50%;
+        left: 43.4%;
+    }
+}
+
+@media only screen and (max-width: 831px) {
+    #quotebutton {
+        left: 42%;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    #quotebutton {
+        left: 41%;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    #headertext {
+        font-size: 200%;
+    }
+    #quotebutton {
+        left: 40.5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #quotebutton {
+        left: 39.5%;
+    }
+}
+
+@media only screen and (max-width: 595px) {
+    #quotebutton {
+        top: 52%;
+    }
+}
+
+@media only screen and (max-width: 592px) {
+    #quotebutton {
+        top: 57%;
+    }
+    #myname {
+        left: 40%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #quotebutton {
+        left: 38.5%;
+        top: 58%;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    #quotebutton {
+        left: 37.6%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #quotebutton {
+        left: 37%;
+    }
+}
+
+@media only screen and (max-width: 409px) {
+    #quotebutton {
+        top: 63%;
+        left: 35.5%;
+    }
+    #myname {
+        left: 37%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #quotebutton {
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #quotebutton {
+        left: 34%;
+    }
+    #myname {
+        left: 35%;
+    }
+}
