@@ -111,9 +111,21 @@ body {
     }
 }
 
+@media only screen and (max-width: 900px) {
+    #backpic {
+        background-size: 140% 100%;
+    }
+}
+
 @media only screen and (max-width: 831px) {
     #quotebutton {
         left: 42%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #backpic {
+        background-size: 170% 100%;
     }
 }
 
@@ -136,6 +148,9 @@ body {
     #quotebutton {
         left: 39.5%;
     }
+    #backpic {
+        background-size: 190% 100%;
+    }
 }
 
 @media only screen and (max-width: 595px) {
@@ -150,6 +165,12 @@ body {
     }
     #myname {
         left: 40%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    #backpic {
+        background-image: url('galaxy.jpg');
     }
 }
 
@@ -179,6 +200,9 @@ body {
     }
     #myname {
         left: 37%;
+    }
+    #backpic {
+        background-size: 200% 100;
     }
 }
 
