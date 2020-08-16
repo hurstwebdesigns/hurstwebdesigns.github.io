@@ -26,19 +26,10 @@ body {
     height: 100%; 
     width: 100%;
     background: rgb(0,0,0);
-    background: -moz-linear-gradient(0deg, rgb(32, 32, 32) 15%, rgba(255,255,255,0) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(32,32,32,1) 15%, rgba(255,255,255,0) 100%);
-    background: linear-gradient(0deg, rgba(32,32,32,1) 15%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(0deg, rgb(32, 32, 32) 10%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(32,32,32,1) 10%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(0deg, rgba(32,32,32,1) 10%, rgba(255,255,255,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
-}
-
-#bottomback {
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(32, 32, 32, 1);
 }
 
 #headertext {
@@ -80,6 +71,45 @@ body {
     width: 7%;
     text-align: center;
     font-size: 125%;
+}
+
+#homebutton {
+    position: absolute;
+    top: 5%;
+    right: 25.2%;
+    color: rgb(0, 158, 124);
+    border-bottom: 2px solid rgb(0, 158, 124);
+    font-family: montserrat;
+}
+
+#charityinfo {
+    position: absolute;
+    top: 5%;
+    right: 17.7%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: montserrat;
+    transition: all 0.1s ease-in-out;
+}
+
+#charityinfo:hover {
+    transform: scale(1.05);
+    border-bottom: 1px solid white;
+}
+
+#toprightstarted {
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: montserrat;
+    transition: all 0.1s ease-in-out;
+}
+
+#toprightstarted:hover {
+    transform: scale(1.05);
+    border-bottom: 1px solid white;
 }
 
 @media only screen and (max-width: 1200px) {
