@@ -197,7 +197,7 @@ body {
     }
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 740px) {
     #quotebutton {
         top: 67.5%;
     }
