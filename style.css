@@ -116,6 +116,9 @@ body {
     #headertext {
         font-size: 250%;
     }
+    #myname {
+        left: 44%;
+    }
 }
 
 @media only screen and (max-width: 1152px) {
@@ -141,9 +144,21 @@ body {
     }
 }
 
+@media only screen and (max-width: 940px) {
+    #myname {
+        lefT: 43%;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     #backpic {
         background-size: 140% 100%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    myname {
+        left: 42%;
     }
 }
 
@@ -156,6 +171,12 @@ body {
 @media only screen and (max-width: 750px) {
     #backpic {
         background-size: 170% 100%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    #myname {
+        left: 41.5%;
     }
 }
 
@@ -181,6 +202,9 @@ body {
     #backpic {
         background-size: 190% 100%;
     }
+    #myname {
+        left: 40.5%;
+    }
 }
 
 @media only screen and (max-width: 595px) {
@@ -192,9 +216,6 @@ body {
 @media only screen and (max-width: 592px) {
     #quotebutton {
         top: 57%;
-    }
-    #myname {
-        left: 40%;
     }
 }
 
@@ -209,11 +230,20 @@ body {
         left: 38.5%;
         top: 58%;
     }
+    #myname {
+        left: 39.5%;
+    }
 }
 
 @media only screen and (max-width: 475px) {
     #quotebutton {
         left: 37.6%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #myname {
+        left: 37.5%;
     }
 }
 
@@ -228,8 +258,6 @@ body {
         top: 63%;
         left: 35.5%;
     }
-    #myname {
-        left: 37%;
     }
     #backpic {
         background-size: 200% 100;
