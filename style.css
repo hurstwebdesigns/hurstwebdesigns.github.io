@@ -119,6 +119,21 @@ body {
     #myname {
         left: 44%;
     }
+    #homebutton {
+        top: 12%;
+        right: 60%;
+        color: rgb(1, 190, 149);
+        font-weight: bold;
+        border-bottom: 2px solid rgb(1, 190, 149);
+    }
+    #charityinfo {
+        left: 44.6%;
+        top: 12%;
+    }
+    #toprightstarted {
+        top: 12%;
+        left: 56%;
+    }
 }
 
 @media only screen and (max-width: 1152px) {
@@ -146,7 +161,16 @@ body {
 
 @media only screen and (max-width: 940px) {
     #myname {
-        lefT: 43%;
+        left: 43%;
+    }
+    #homebutton {
+        right: 60.7%;
+    }
+    #charityinfo {
+        left: 43.9%;
+    }
+    #toprightstarted {
+        left: 55.3%;
     }
 }
 
@@ -157,14 +181,35 @@ body {
 }
 
 @media only screen and (max-width: 880px) {
-    myname {
+    #myname {
         left: 42%;
+    }
+    #charityinfo {
+        left: 43%;
+    }
+    #toprightstarted {
+        left: 54.4%;
     }
 }
 
 @media only screen and (max-width: 831px) {
     #quotebutton {
         left: 42%;
+    }
+}
+
+@media only screen and (max-width: 792px) {
+    #toprightstarted {
+
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    #toprightstarted {
+        left: 55%;
+    }
+    #charityinfo {
+        left: 42.8%;
     }
 }
 
@@ -178,6 +223,15 @@ body {
     #myname {
         left: 41.5%;
     }
+    #homebutton {
+
+    }
+    #charityinfo {
+        left: 42.5%;
+    }
+    #toprightstarted {
+
+    }
 }
 
 @media only screen and (max-width: 730px) {
@@ -186,36 +240,54 @@ body {
     }
 }
 
+@media only screen and (max-width: 700px) {
+    #myname {
+        width: 100%;
+        left: 0px;
+        text-align: center;
+    }
+    #homebutton {
+        right: 46.5%;
+        border-bottom: none;
+        text-decoration: underline;
+        text-decoration-color: rgb(0, 158, 124);
+        width: 100%;
+        text-align: center;
+        left: 0px;
+        font-weight: bold;
+    }
+    #charityinfo {
+        width: 100%;
+        text-align: center;
+        left: 0px;
+        top: 17.5%;
+    }
+    #toprightstarted {
+        width: 100%;
+        top: 23%;
+        text-align: center;
+        left: 0px;
+    }
+    #headertext {
+        left: 28%;
+    }
+    #quotebutton {
+        left: 43%;
+    }
+}
+
 @media only screen and (max-width: 668px) {
     #headertext {
         font-size: 200%;
     }
-    #quotebutton {
-        left: 40.5%;
-    }
 }
 
 @media only screen and (max-width: 600px) {
-    #quotebutton {
-        left: 39.5%;
-    }
     #backpic {
         background-size: 190% 100%;
     }
-    #myname {
-        left: 40.5%;
-    }
-}
-
-@media only screen and (max-width: 595px) {
     #quotebutton {
-        top: 52%;
-    }
-}
-
-@media only screen and (max-width: 592px) {
-    #quotebutton {
-        top: 57%;
+        left: 42%;
     }
 }
 
@@ -227,54 +299,30 @@ body {
 
 @media only screen and (max-width: 500px) {
     #quotebutton {
-        left: 38.5%;
-        top: 58%;
-    }
-    #myname {
-        left: 39.5%;
+        left: 40%;
     }
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 450px) {
     #quotebutton {
-        left: 37.6%;
-    }
-}
-
-@media only screen and (max-width: 430px) {
-    #myname {
-        left: 37.5%;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    #quotebutton {
-        left: 37%;
+        left: 39%;
     }
 }
 
 @media only screen and (max-width: 409px) {
-    #quotebutton {
-        top: 63%;
-        left: 35.5%;
-    }
-    }
     #backpic {
         background-size: 200% 100;
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 360px) {
     #quotebutton {
-        left: 35%;
+        left: 36%;
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 320px) {
     #quotebutton {
-        left: 34%;
-    }
-    #myname {
         left: 35%;
     }
 }
